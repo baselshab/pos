@@ -1,0 +1,12 @@
+export type { IEntity, ILocalRepository, IRemoteRepository } from './base.repository';
+export { createLocalRepository } from './local.factory';
+export { createRemoteRepository } from './remote.factory';
+export * from './products.repository';
+export * from './customers.repository';
+export * from './sales.repository';
+export * from './sale_items.repository';
+export * from './expenses.repository';
+export * from './inventory_movements.repository';
+export * from './categories.repository';
+export * from './settings.repository';
+export * from './pending_operations.repository';
